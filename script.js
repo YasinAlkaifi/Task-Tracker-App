@@ -173,4 +173,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // Call render initially to render any existing tasks (in this case, the array starts empty)
     render();
-});
+}); 

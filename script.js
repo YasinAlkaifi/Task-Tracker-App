@@ -167,10 +167,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
         console.log('Task marked as complete:', tasks[index]);
         // Remember to add logic here for your app's requirements
     };
-
+ 
     // Event listener for form submission
     taskForm.addEventListener('submit', handleSubmission);
 
     // Call render initially to render any existing tasks (in this case, the array starts empty)
     render();
-}); 
+}) ; 
